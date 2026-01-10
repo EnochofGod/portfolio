@@ -950,8 +950,13 @@
         @media (max-width: 640px) {
           .modern-template {
             padding: 1rem;
-            background: linear-gradient(180deg,#071027 0%, #07121a 100%);
             animation: fadeIn 0.8s ease-out;
+          }
+          .modern-template[data-theme="dark"] {
+            background: linear-gradient(180deg,#071027 0%, #07121a 100%);
+          }
+          .modern-template[data-theme="light"] {
+            background: linear-gradient(180deg,#f8fafc 0%, #e2e8f0 100%);
           }
           .modern-template .container { padding: 0 0.75rem; }
           .modern-template header { padding: 1rem 0; }
@@ -959,33 +964,59 @@
             padding: 1.5rem;
             gap: 1.5rem;
             border-radius: 20px;
+            backdrop-filter: blur(10px);
+            animation: slideUp 0.6s ease-out 0.2s both;
+          }
+          .modern-template[data-theme="dark"] .hero-section {
             background: linear-gradient(135deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
             box-shadow: 0 20px 40px rgba(2,6,23,0.3);
-            backdrop-filter: blur(10px);
             border: 1px solid rgba(255,255,255,0.1);
-            animation: slideUp 0.6s ease-out 0.2s both;
+          }
+          .modern-template[data-theme="light"] .hero-section {
+            background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.8));
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.1);
           }
           .modern-template .profile-image-container img,
           .modern-template .profile-image img {
             width: 250px;
             height: 250px;
             border-radius: 50%;
+            animation: bounceIn 0.8s ease-out 0.4s both;
+          }
+          .modern-template[data-theme="dark"] .profile-image-container img,
+          .modern-template[data-theme="dark"] .profile-image img {
             border: 3px solid rgba(255,255,255,0.2);
             box-shadow: 0 10px 30px rgba(2,6,23,0.4);
-            animation: bounceIn 0.8s ease-out 0.4s both;
+          }
+          .modern-template[data-theme="light"] .profile-image-container img,
+          .modern-template[data-theme="light"] .profile-image img {
+            border: 3px solid rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
           }
           .modern-template .skill-category {
             border-radius: 16px;
             padding: 1.25rem;
-            box-shadow: 0 12px 32px rgba(2,6,23,0.2);
-            background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
-            border: 1px solid rgba(255,255,255,0.08);
             animation: fadeInUp 0.6s ease-out 0.6s both;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
           }
-          .modern-template .skill-category:hover {
+          .modern-template[data-theme="dark"] .skill-category {
+            box-shadow: 0 12px 32px rgba(2,6,23,0.2);
+            background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+            border: 1px solid rgba(255,255,255,0.08);
+          }
+          .modern-template[data-theme="dark"] .skill-category:hover {
             transform: translateY(-5px);
             box-shadow: 0 20px 40px rgba(2,6,23,0.3);
+          }
+          .modern-template[data-theme="light"] .skill-category {
+            box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+            background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.8));
+            border: 1px solid rgba(0,0,0,0.1);
+          }
+          .modern-template[data-theme="light"] .skill-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
           }
           .modern-template .skill-tag {
             padding: 0.5rem 1rem;
@@ -1001,17 +1032,29 @@
             border-radius: 16px;
             padding: 1rem;
             font-weight:600;
+            animation: pulse 2s infinite;
+          }
+          .modern-template[data-theme="dark"] .cv-button {
             background: linear-gradient(135deg, #22d3ee, #0ea5e9);
             box-shadow: 0 8px 20px rgba(34, 211, 238, 0.3);
-            animation: pulse 2s infinite;
+          }
+          .modern-template[data-theme="light"] .cv-button {
+            background: linear-gradient(135deg, #0ea5e9, #0284c7);
+            box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
           }
           .modern-template .theme-toggle {
             width:48px;
             height:48px;
-            background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.2);
             animation: float 3s ease-in-out infinite;
+          }
+          .modern-template[data-theme="dark"] .theme-toggle {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+            border: 1px solid rgba(255,255,255,0.2);
+          }
+          .modern-template[data-theme="light"] .theme-toggle {
+            background: linear-gradient(135deg, rgba(0,0,0,0.05), rgba(0,0,0,0.02));
+            border: 1px solid rgba(0,0,0,0.1);
           }
         }
 
