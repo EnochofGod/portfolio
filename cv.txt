@@ -1,0 +1,50 @@
+Enoch Boluwatife Adepate
+Software Developer
+
+Contact Information:
+- Mobile: +234 811 040 7060
+- Email: adepateenoch@gmail.com
+- GitHub: EnochofGod (Enoch Adepate)
+- Location: Mile 12, Lagos
+
+About Me:
+I am a highly motivated and results-driven Software Developer with a focus on building dynamic, responsive web applications and high-performance dashboards. I specialize in the MERN stack (MongoDB, Express, React, Node.js) and TypeScript to deliver high-quality software solutions that drive business success.
+
+Key Highlights:
+- Experienced Full-Stack Developer proficient in React, Node.js, and PostgreSQL for building scalable infrastructures.
+- Proven track record of converting high-fidelity designs into functional front-end code and improving user engagement.
+- Specialist in PWA development, architecting offline-capable applications to enhance user experience.
+- Committed to best practices in version control, handling complex Git workflows and production-critical database migrations.
+
+Skills & Expertise:
+Technical Skills: React, TypeScript, Node.js, Express.js, Angular, PostgreSQL, Sequelize ORM, MongoDB, MySQL, Tailwind CSS, Material-UI, RESTful APIs, Git, GitHub, GitLab, Docker, CI/CD, Vercel, Netlify, GitHub Pages
+
+Professional Skills: Problem Solving, Team Collaboration, Agile Methodologies (Scrum, Kanban), Technical Implementation & Optimization, Attention to Detail
+
+Certifications:
+- Front-End Development | New Horizons Computer Learning Institute
+- Software Development | Digital SkillUp Africa
+- Data Science and Machine Learning | Digital SkillUp Africa
+
+Experience:
+Software Developer at Housify
+- Architected and implemented the complete backend infrastructure and core API services for authentication, property listings, and messaging.
+- Executed production-critical database migrations to Render and refactored multi-role dashboards.
+- Technologies: Node.js, PostgreSQL, Sequelize ORM, React, Git
+
+Software Developer at Kollege Scout
+- Architected and implemented Progressive Web App (PWA) functionality to enable offline access.
+- Integrated Strapi CMS with frontend components to ensure reliable real-time data synchronization for blog platforms.
+- Technologies: PWA (Service Workers), Strapi CMS, JavaScript, Node.js
+
+Frontend Development Intern at New Horizons Software System Solutions
+- Translated wireframes into high-fidelity user interfaces and developed interactive components for a real estate prototype and a student grade reporting dashboard.
+- Technologies: HTML5, CSS3, JavaScript, GitHub Pages
+
+Key Projects:
+- Mentorship Matching Platform: Comprehensive full-stack application connecting mentees with mentors using a scalable RESTful API and dynamic React frontend. Stack: React.js, Node.js, Express.js, PostgreSQL
+- Portfolio Generator Website: Production-ready template generator featuring a custom utility-first design system and real-time customization interface. Stack: React.js, Tailwind CSS, Vercel
+- Grade Calculator/Report Card Generator: Utility web application featuring core logic for weighted average calculations and dynamic client-side state management. Stack: React, Tailwind CSS, GitHub Pages
+
+Education:
+Bachelor of Science in Industrial Chemistry | Olabisi Onabanjo University, Nigeria (2021 - 2024)
